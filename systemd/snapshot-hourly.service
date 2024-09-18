@@ -1,5 +1,5 @@
 [Unit]
-Description=test takes hourly btrfs snapshots of root and home directories
+Description=takes hourly btrfs snapshots of root and home directories
 After=default.target
 Wants=default.target
 
