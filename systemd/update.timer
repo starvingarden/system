@@ -1,0 +1,11 @@
+[Unit]
+Description=updates certain things
+After=default.target
+
+[Timer]
+Persistent=true
+OnCalendar=daily
+OnBootSec=5minutes
+
+[Install]
+WantedBy=default.target
