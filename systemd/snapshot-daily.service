@@ -4,4 +4,4 @@ After=default.target
 Wants=default.target
 
 [Service]
-ExecStart=snapshot-daily.sh
+ExecStart=/scripts/root/snapshot-daily.sh

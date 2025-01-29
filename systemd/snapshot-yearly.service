@@ -4,4 +4,4 @@ After=default.target
 Wants=default.target
 
 [Service]
-ExecStart=snapshot-yearly.sh
+ExecStart=/scripts/root/snapshot-yearly.sh

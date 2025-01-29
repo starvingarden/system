@@ -4,4 +4,4 @@ After=default.target
 Wants=default.target
 
 [Service]
-ExecStart=snapshot-hourly.sh
+ExecStart=/scripts/root/snapshot-hourly.sh
