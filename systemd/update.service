@@ -3,6 +3,6 @@ Description=updates certain things
 After=default.target
 
 [Service]
-ExecStart=/scripts/root/update.sh
+ExecStart=/scripts/all/update.sh
 ExecStartPre=/scripts/all/internet-check.sh
 Type=simple
