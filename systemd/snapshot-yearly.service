@@ -1,7 +1,6 @@
 [Unit]
-Description=takes yearly btrfs snapshots of root and home directories
+Description=yearly snapshots
 After=default.target
-Wants=default.target
 
 [Service]
 ExecStart=/scripts/root/snapshot-yearly.sh

@@ -1,8 +1,8 @@
 [Unit]
-Description=updates certain things
+Description=update things
 After=default.target
 
 [Service]
 ExecStart=/scripts/all/update.sh
 ExecStartPre=/scripts/all/internet-check.sh
-Type=simple
+TimeoutStartSec=15min

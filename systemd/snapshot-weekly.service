@@ -1,7 +1,6 @@
 [Unit]
-Description=takes weekly btrfs snapshots of root and home directories
+Description=weekly snapshots
 After=default.target
-Wants=default.target
 
 [Service]
 ExecStart=/scripts/root/snapshot-weekly.sh

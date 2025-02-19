@@ -1,11 +1,11 @@
 [Unit]
-Description=updates certain things
+Description=update things
 After=default.target
 
 [Timer]
 Persistent=true
 OnCalendar=daily
-OnBootSec=5minutes
+AccuracySec=5minutes
 
 [Install]
 WantedBy=default.target
